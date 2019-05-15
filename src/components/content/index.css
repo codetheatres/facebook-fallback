@@ -13,6 +13,7 @@
 }
 
 .content-right {
+    padding-top: 35px;
     float: right;
     width: 50%;
     height: 100%;
@@ -23,6 +24,7 @@ input {
     border-radius: 18px;
     border: 1px solid #ffffff;
     text-align: center;
+    outline: none;
 }
 
 .male,.female {
@@ -36,4 +38,11 @@ input {
 
 .content-right-bottom > div:first-child {
     width: 32vw;
+}
+
+.signup {
+    background-color: rgb(98, 168, 94);
+    width: 20%;
+    height: 2vw;
+    outline: none;
 }

@@ -16,20 +16,20 @@ class Content extends React.Component {
                     <div className="content-right-middle">
                         <div>
                             <span>
-                                <input type="text" name="firstname" value="" placeholder="First Name" />
+                                <input type="text" name="firstname" defaultValue="" placeholder="First Name" />
                             </span>
                             &nbsp;&nbsp;&nbsp;&nbsp;
                         <span>
-                                <input type="text" name="lastname" value="" placeholder="Last Name" />
+                                <input type="text" name="lastname" defaultValue="" placeholder="Last Name" />
                             </span>
                         </div>
                         &nbsp;&nbsp;
                         <div>
-                            <input type="text" name="mobileno" value="" placeholder="Mobile No" />
+                            <input type="text" name="mobileno" defaultValue="" placeholder="Mobile No" />
                         </div>
                         &nbsp;&nbsp;
                         <div>
-                            <input type="password" name="password" value="" placeholder="New Password" />
+                            <input type="password" name="password" defaultValue="" placeholder="New Password" />
                         </div>
                         &nbsp;&nbsp;
                         <div>
@@ -37,25 +37,25 @@ class Content extends React.Component {
                             &nbsp;
                             <span>
                                 <select>
-                                    <option value="1">01</option>
+                                    <option defaultValue="1">01</option>
                                 </select>
                                 <select>
-                                    <option value="1">Jan</option>
+                                    <option defaultValue="1">Jan</option>
                                 </select>
                                 <select>
-                                    <option value="1">2018</option>
-                                </select>
+                                    <option defaultValue="1">2018</option>
+                                </select>   
                                 <a href="https://www.codilar.com/">Why do I need to provide date of birth?</a>
                             </span>
                         </div>
                         &nbsp;&nbsp;
                         <div>
                             <div className="gender">
-                                <input type="radio" name="male" defaultValue="1" /><span className="male">Male</span>
+                                <input type="radio" name="gender" defaultValue="1" /><span className="male">Male</span>
                             </div>
 
                             <div className="gender">
-                                <input type="radio" name="female" defaultValue="2" /><span className="female">Female</span>
+                                <input type="radio" name="gender" defaultValue="2" /><span className="female">Female</span>
                             </div>
                         </div>
                     </div>
@@ -68,12 +68,7 @@ class Content extends React.Component {
                         </div>
                         <br></br>
                         <div>
-                            <input type="button" value="Sign Up"/>
-                        </div>
-                        <div>
-                            <label>
-                                <h2><a href="https://www.codetheatres.com/">Create a Page</a> for celebrity, band and business.</h2>
-                            </label>
+                            <input className="signup" type="button" value="Sign Up"/>
                         </div>
                     </div>
                 </div>
